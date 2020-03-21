@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Container{
+	width: 960px;
+	margin: 0 auto;
+}
+header{}
+nav{
+	
+}
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+nav ul li{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	float: left;
+}
+nav ul li a:link, nav ul li a:visited{
+	display: block;
+	height: 30px;
+	width: 80px;
+	line-height: 30px;
+	text-align: center;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active{
+	background: #CCC;
+}
+section{
+	float: left;
+	width: 760px;
+}
+aside{
+	float: right;
+	width: 200px;
+}
+footer{
+	clear: both;
+}
