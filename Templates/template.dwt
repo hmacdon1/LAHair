@@ -3,41 +3,54 @@
 <head>
 <meta charset="utf-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>LA Hair Atlanta</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href=../style.css rel="stylesheet" type="text/css">
+<link href="../style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <div id="Container">
-	<header>Header</headere>
+	<header>
+		<p><img src="../Pictures/logo.png" width="301" height="84" alt=""/></p>
+		<p>Human Hair Extensions for All Nationalities for 35+ Years</p>
+	</header>
 	<nav>
 	  <ul>
-	    <li>Home</li>
-	    <li>1st Time Shopper</li>
-	    <li>FREE CONSULTATION</li>
-	    <li>Female Hair Loss</li>
-	    <li>Hair Extensions/Weaves</li>
-	    <li>Micro Weave Track</li>
-	    <li>Hair Growth</li>
-	    <li>Before &amp; After Hair Extension Photos</li>
-	    <li>The Hair Story</li>
-	    <li>Color Chart</li>
-	    <li>Hair Care</li>
-	    <li>FAQ</li>
-	    <li>Glossary</li>
-	    <li>About Us</li>
+	    <li><a href="../index.html">Home</a></li>
+	    <li><a href="../1sttime.html">1st Time Shopper</a></li>
+	    <li><a href="../consultation.html">FREE CONSULTATION</a></li>
+	    <li><a href="../hairloss.html">Female Hair Loss</a></li>
+	    <li><a href="../weaves.html">Hair Extensions/Weaves</a></li>
+	    <li><a href="../microweave.html">Micro Weave Track</a></li>
+	    <li><a href="../hairgrowth.html">Hair Growth</a></li>
+	    <li><a href="../beforeafter.html">Before & After Hair Extension Photos</a></li>
+	    <li><a href="../thehairstory.html">The Hair Story</a></li>
+	    <li><a href="../colorchart.html">Color Chart</a></li>
+	    <li><a href="../haircare.html">Hair Care</a></li>
+	    <li><a href="../faq.html">FAQ</a></li>
+	    <li><a href="../glossary.html">Glossary</a></li>
+	    <li><a href="../aboutus.html">About Us</a></li>
       </ul>
 	</nav>
 	<section><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></section>
-	<aside>Sidebar</aside>
+  <aside>Sidebar</aside>
 <footer>
-  <ul>
-    <li>Sitemap</li>
-    <li>Feedback</li>
-  </ul>
+	<table width="100%" border="0">
+  <tbody>
+    <tr>
+		<td width="33%" align=left>Northside Tower,<br/>Suite 510 6065 Roswell Road NE<br/>Atlanta, GA 30328</td>
+      <td width="34%" align=center><a href="../sitemap.html">Sitemap</a> | Feedback
+		<br/>
+		<a href="https://www.facebook.com/profile.php?id=100015040153538"><img src="../Pictures/logo-facebook.png" width="47px" height="47px" alt=""/></a>	
+		<a href="https://twitter.com/LaHairAtl"><img src="../Pictures/twitter-logo-final.png" width="47px" height="47px" alt=""/></a>
+		  <img src="../Pictures/Free-wifi.png" width="48" height="48" alt=""/><br/> 
+		  Copright © 2020 | LA Hair Extensions Atlanta</td>
+      <td width="33%" align=right>404-252-5644</td>
+    </tr>
+  </tbody>
+</table>
 </footer>
 </div>
 </body>
