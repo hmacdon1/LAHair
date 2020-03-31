@@ -93,7 +93,7 @@ window.onclick = function(event) {
       </ul>-->
 	</nav>
 	<section><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></section>
-  <aside>Sidebar</aside>
+  <aside><!-- TemplateBeginEditable name="Sidebar" -->Sidebar<!-- TemplateEndEditable --></aside>
 <footer>
 	<table width="100%" border="0">
   <tbody>
