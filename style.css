@@ -108,12 +108,17 @@ nav a{
 .show {display:block;}
 
 section{
-	float: left;
-	width: 760px;
+    float: left;
+    width: 760px;
+    font-size: 18px;
+    color: goldenrod;
+    text-align: left;
 }
 aside{
-	float: right;
-	width: 200px;
+    float: right;
+    width: 200px;
+    text-align: center;
+    color: goldenrod;
 }
 footer{
 	clear: both;
