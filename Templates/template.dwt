@@ -77,14 +77,12 @@ window.onclick = function(event) {
 	    <li><a href="../glossary.html">Glossary</a></li>
 	    <li><a href="../aboutus.html">About Us</a></li>
       </ul>-->
-<<<<<<< HEAD
     </nav>
 	<!-- TemplateEndEditable -->
 <section><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></section>
   <!-- TemplateBeginEditable name="Sidebar" -->
     <aside>Sidebar</aside>
   <!-- TemplateEndEditable -->
-=======
 	
 <footer>
 	<table width="100%" border="0">
