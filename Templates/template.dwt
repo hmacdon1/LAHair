@@ -52,8 +52,7 @@ window.onclick = function(event) {
 	<!-- TemplateBeginEditable name="EditRegion5" -->
 	<nav>
 	  <div class="dropdown">
-	    <button class="dropbtn"></button>
-	    <a href="../index.html">Home</a>
+		  <button class="dropbtn"><a href="../index.html">Home</a></button>
 	    <button onClick="myFunction()" class="dropbtn">About Us</button>
 	    <div id="aboutUs" class="dropdown-content"> <a href="../aboutus.html">About Us</a> <a href="../faq.html">FAQ</a> <a href="../glossary.html">Glossary</a> <a href="../thehairstory.html">The Hair Story</a> </div>
 	    <button onClick="myFunction2()" class="dropbtn">Services</button>
@@ -61,22 +60,6 @@ window.onclick = function(event) {
 	    <button onClick="myFunction3()" class="dropbtn">1st Time</button>
 	    <div id="firstTime" class="dropdown-content"> <a href="../1sttime.html">1st Time Shopper</a> <a href="../consultation.html">FREE CONSULTATION</a> </div>
       </div>
-	  <!--<ul>
-	    <li><a href="../index.html">Home</a></li>
-	    <li><a href="../1sttime.html">1st Time Shopper</a></li>
-	    <li><a href="../consultation.html">FREE CONSULTATION</a></li>
-	    <li><a href="../hairloss.html">Female Hair Loss</a></li>
-	    <li><a href="../weaves.html">Hair Extensions/Weaves</a></li>
-	    <li><a href="../microweave.html">Micro Weave Track</a></li>
-	    <li><a href="../hairgrowth.html">Hair Growth</a></li>
-	    <li><a href="../beforeafter.html">Before & After Hair Extension Photos</a></li>
-	    <li><a href="../thehairstory.html">The Hair Story</a></li>
-	    <li><a href="../colorchart.html">Color Chart</a></li>
-	    <li><a href="../haircare.html">Hair Care</a></li>
-	    <li><a href="../faq.html">FAQ</a></li>
-	    <li><a href="../glossary.html">Glossary</a></li>
-	    <li><a href="../aboutus.html">About Us</a></li>
-      </ul>-->
     </nav>
 	<!-- TemplateEndEditable -->
 <section><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></section>
