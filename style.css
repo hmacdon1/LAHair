@@ -93,6 +93,21 @@ section h2{
 section p{
 	padding-left: 15px
 }
+section p img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+section div p iframe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+section div.home {
+	width: 960px;
+}
 aside{
     float: right;
     width: 200px;
