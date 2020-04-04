@@ -109,7 +109,7 @@ section div p iframe {
   	margin-right: auto;
   	width: 50%;
 }
-#hairgrowth{
+#hairgrowth {
 	table-layout: auto;
 	width: 80%;
 	display: block;
@@ -117,8 +117,16 @@ section div p iframe {
   	margin-right: auto;
 	text-align: center;
 }
-section div.home {
-	width: 960px;
+#hairloss {
+	table-layout: auto;
+	width: 100%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+}
+section div.noaside {
+	width: 1000px;
 }
 aside{
     float: right;
