@@ -89,6 +89,10 @@ section h2{
 	font-style: italic;
 	font-size: 16pt;
 	color: lightgoldenrodyellow;
+	padding-left: 5px;
+}
+section h1{
+	text-align: center;
 }
 section p{
 	padding-left: 15px
@@ -104,6 +108,14 @@ section div p iframe {
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
+}
+#hairgrowth{
+	table-layout: auto;
+	width: 80%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
 }
 section div.home {
 	width: 960px;
