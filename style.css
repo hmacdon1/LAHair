@@ -169,3 +169,7 @@ footer a{
 footer img {
 	padding: 5px;
 }
+#guarantees {
+	text-align: center;
+	font: bold;
+}
