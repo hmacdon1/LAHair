@@ -90,7 +90,7 @@ section a{
 	color: white;
 }
 section table td{
-	padding: 5px;
+	padding: 0px;
 }
 section h2{
 	font-style: italic;
@@ -113,6 +113,14 @@ section p img{
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
+}
+#margin1{
+	display: block;
+  	margin-left: none;
+  	margin-right: none;
+  	width: 60%;
+	height: 60%;
+	align: center;
 }
 section div p iframe {
 	display: block;
