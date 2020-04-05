@@ -101,6 +101,10 @@ section h2{
 section h1{
 	text-align: center;
 }
+section h3{
+	font-size: 14pt;
+	color: crimson;
+}
 section p{
 	padding-left: 15px
 }
