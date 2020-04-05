@@ -90,6 +90,10 @@ section h2{
 	font-size: 16pt;
 	color: lightgoldenrodyellow;
 }
+section h3{
+	font-size: 14pt;
+	color: crimson;
+}
 section p{
 	padding-left: 15px
 }
