@@ -114,6 +114,14 @@ section p img{
   	margin-right: auto;
   	width: 50%;
 }
+#margin1{
+	display: block;
+  	margin-left: none;
+  	margin-right: none;
+  	width: 60%;
+	height: 60%;
+	align: center;
+}
 section div p iframe {
 	display: block;
   	margin-left: auto;
