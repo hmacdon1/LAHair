@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>LA Hair Atlanta</title>
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("services").classList.remove('show');
+	document.getElementById("firstTime").classList.remove('show');
+	document.getElementById("aboutUs").classList.toggle("show");
+}
+	function myFunction2() {
+		document.getElementById("aboutUs").classList.remove('show');
+	document.getElementById("firstTime").classList.remove('show');
+  document.getElementById("services").classList.toggle("show");
+}
+	function myFunction3() {
+		document.getElementById("services").classList.remove('show');
+	document.getElementById("aboutUs").classList.remove('show');
+  document.getElementById("firstTime").classList.toggle("show");
+}
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}	
+	</script>
+	<style type="text/css">
+		div
+		{border: solid #000;
+			border-width: 0 10px;
+		}
+	</style>
+	</head>
+
+<body>
+<div id="Container">
+	<header>
+		<p><img src="../Pictures/logo.png" width="301" height="84" alt=""/></p>
+		<p>Human Hair Extensions for All Nationalities for 35+ Years</p>
+	</header>
+	<!-- TemplateBeginEditable name="EditRegion5" -->
+	<nav>
+	  <div class="dropdown">
+		  <button class="dropbtn"><a href="../index.html">Home</a></button>
+	    <button onClick="myFunction()" class="dropbtn">About Us</button>
+	    <div id="aboutUs" class="dropdown-content"> <a href="../aboutus.html">About Us</a> <a href="../faq.html">FAQ</a> <a href="../glossary.html">Glossary</a> <a href="../thehairstory.html">The Hair Story</a> </div>
+	    <button onClick="myFunction2()" class="dropbtn">Services</button>
+	    <div id="services" class="dropdown-content"> <a href="../hairloss.html">Female Hair Loss</a> <a href="../weaves.html">Hair Extensions/Weaves</a> <a href="../microweave.html">Micro Weave Track</a> <a href="../hairgrowth.html">Hair Growth</a> <a href="../beforeafter.html">Before & After Hair Extension Photos</a> <a href="../colorchart.html">Color Chart</a> <a href="../haircare.html">Hair Care</a> </div>
+	    <button onClick="myFunction3()" class="dropbtn">1st Time</button>
+	    <div id="firstTime" class="dropdown-content"> <a href="../1sttime.html">1st Time Shopper</a> <a href="../consultation.html">FREE CONSULTATION</a> </div>
+      </div>
+    </nav>
+	<div class="noaside">
+	<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></div>
+  <!-- TemplateBeginEditable name="Sidebar" -->
+
+  <!-- TemplateEndEditable -->
+	
+<footer>
+	<table width="100%" border="0">
+  <tbody>
+    <tr>
+		<td width="33%" align="left">Northside Tower,<br/>Suite 510 6065 Roswell Road NE<br/>Atlanta, GA 30328</td>
+      <td width="34%" align="center"><a href="../sitemap.html">Sitemap</a> | <a href="../feedback.html">Feedback</a> <br>
+<a href="https://www.facebook.com/profile.php?id=100015040153538"><img src="../Pictures/logo-facebook.png" width="47px" height="47px" alt=""/></a>	
+		<a href="https://twitter.com/LaHairAtl"><img src="../Pictures/twitter-logo-final.png" width="47px" height="47px" alt=""/></a>
+		  <img src="../Pictures/Free-wifi.png" width="48" height="48" alt=""/><br/> 
+		  Copright © 2020 | LA Hair Extensions Atlanta</td>
+      <td width="33%" align="right">404-252-5644</td>
+    </tr>
+  </tbody>
+</table>
+</footer>
+</div>
+</body>
+</html>
