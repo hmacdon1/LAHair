@@ -178,3 +178,74 @@ footer img {
 #askgenie {
 	text-align: center;
 }
+tr td p.shades {
+	text-align: center;	
+	}	
+#colorwheel {
+	text-align: center;
+	}
+#colorwheeltext {
+	text-align: center;	
+	}
+h3.aboutus {
+	color: darkgoldenrod;
+	font-size: 18px;
+	text-align: center;
+}
+h2.aboutus {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+h1.aboutus {
+	color: goldenrod;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+img.aboutimg {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 100;
+	height: auto;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 150px;
+}
+#welcome {
+	text-align: center;
+	vertical-align: top;
+}
+#weave1 {
+	float: left;	
+	vertical-align: top;
+	padding: 10px;
+	width: 200;
+	height: auto;
+} 
+#enhancement1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float: middle;
+	padding: 20px;
+	width: 150px;
+	height: auto;
+}
+#braid1 {
+	float: left;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: auto;
+}
+p.weave1text {
+	text-align: bottom;
+} 
+p.weave2text {
+	text-align: right;
+}
