@@ -209,6 +209,7 @@ img.aboutimg {
 	margin-right: auto;
 	min-width: 100;
 	height: auto;
+	width: 384px; 
 }
 #wrapper {
 	margin-left: auto;
