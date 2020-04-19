@@ -293,3 +293,17 @@ table td.rightalign {
 table td.leftalign {
 	text-align: left;
 }
+table.feedback {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.yesno {
+	width: 200;
+}
+td.leftfeedback {
+	width: 35%;
+}
+td.rightfeedback {
+	width: 65%;
+}
