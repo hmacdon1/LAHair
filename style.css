@@ -154,6 +154,9 @@ section div p iframe {
 section div.noaside {
 	width: 1000px;
 }
+p.center {
+	text-align: center;
+}
 aside{
     float: right;
     width: 200px;
@@ -195,6 +198,9 @@ tr td p.shades {
 h3.aboutus {
 	color: #B8860B;
 	font-size: 18px;
+	text-align: center;
+}
+h3.haircare {
 	text-align: center;
 }
 h2.aboutus {
