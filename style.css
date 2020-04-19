@@ -275,3 +275,16 @@ table.colorchart2 {
 	border: 0;
 	cellpadding: 0;
 }
+table.consultation {
+	width: auto;
+	border: 0;
+}
+img.rightalign {
+	float: right;
+}
+table td.rightalign {
+	text-align: right;
+}
+table td.leftalign {
+	text-align: left;
+}
