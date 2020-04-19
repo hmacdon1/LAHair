@@ -53,7 +53,7 @@ nav a{
 .dropdown {
   position: relative;
   display: inline-block;
-	color: aliceblue;
+	color: #F0F8FF;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -85,7 +85,7 @@ section{
     float: left;
     width: 760px;
     font-size: 18px;
-    color: goldenrod;
+    color: #DAA520;
     text-align: left;
 }
 section a{
@@ -153,7 +153,7 @@ aside{
     float: right;
     width: 200px;
     text-align: center;
-    color: goldenrod;
+    color: #DAA520;
 }
 footer{
 	clear: both;
@@ -165,7 +165,7 @@ footer{
 }
 
 footer a{
-	color: goldenrod;
+	color: #DAA520;
 }
 
 footer img {
@@ -198,7 +198,7 @@ h2.aboutus {
 	text-align: center;
 }
 h1.aboutus {
-	color: goldenrod;
+	color: #DAA520;
 	font-size: 22px;
 	text-align: center;
 	font-weight: bold;
