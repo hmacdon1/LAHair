@@ -255,13 +255,13 @@ footer table {
 }
 table.left {
 	width: 33%;
-	align: left;
+	text-align: left;
 }
 table.center {
 	width: 34%;
-	align: center;
+	text-align: center;
 }
 table.right {
 	width: 33%;
-	align: right;
+	text-align: right;
 }
