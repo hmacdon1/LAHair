@@ -116,6 +116,11 @@ section p img{
   	margin-left: auto;
   	margin-right: auto;
 }
+a img.faq {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
 #margin1{
 	display: block;
   	margin-left: 0;
