@@ -8,7 +8,7 @@
 }
 body{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	color: aliceblue;
+	color: #F0F8FF;
 	background-color: #1D2027;
 }
 header{
@@ -20,15 +20,15 @@ header{
 nav{
 	background-color: #313847;
 	padding: 5px;
-	color: aliceblue;
+	color: #F0F8FF;
 }
 nav a{
 	text-decoration: none;
-	color: aliceblue
+	color: #F0F8FF;
 }
 .dropbtn {
   background-color: #454b59;
-  color: aliceblue;
+  color: #F0F8FF;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -61,7 +61,7 @@ nav a{
   display: none;
   position: absolute;
   background-color: #454b59;
-	color: aliceblue;
+	color: #F0F8FF;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -69,7 +69,7 @@ nav a{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: aliceblue;
+  color: #F0F8FF;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
