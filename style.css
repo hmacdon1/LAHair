@@ -249,3 +249,19 @@ p.weave1text {
 p.weave2text {
 	text-align: right;
 }
+footer table {
+	width: 100%;
+	border: 0;
+}
+table.left {
+	width: 33%;
+	align: left;
+}
+table.center {
+	width: 34%;
+	align: center;
+}
+table.right {
+	width: 33%;
+	align: right;
+}
