@@ -81,6 +81,10 @@ nav a{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+.center {
+	text-align: center;
+}
+
 section{
     float: left;
     width: 760px;
@@ -304,6 +308,9 @@ table.consultation {
 }
 img.rightalign {
 	float: right;
+}
+img.leftalign {
+	float: left;
 }
 table td.rightalign {
 	text-align: right;
