@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #Container{
-	width: 0 auto;
+	width: auto;
 	margin: 0 auto;
 	max-width: 1000px;
 }
@@ -231,7 +231,6 @@ img.aboutimg {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	float: center;
 	padding: 20px;
 	width: 150px;
 	height: auto;
