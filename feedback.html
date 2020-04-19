@@ -1,5 +1,5 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -9,7 +9,7 @@
 <!-- InstanceEndEditable -->
 <!-- Nav JavaScript -->
 <link href="style.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
+<script>
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -84,25 +84,31 @@ window.onclick = function(event) {
   <div class="noaside"><form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
 	<input type="hidden" name="username" value="jackiew32">
 	<input type="hidden" name="reqd" value="1,2">
+<<<<<<< HEAD
 	<input type="hidden" name="url" value="https://studentweb.kennesaw.edu/~dfajard3/3260/project/Unnamed%20Site%203/thankyou.html">
   <p>Give us your feedback on LA Hair!</p>
 	  <table width="90%" border="1" align="center">
+=======
+	<input type="hidden" name="url" value="http://studentweb.kennesaw.edu/~dfajard3/3260/project/Unnamed%20Site%203/thankyou.html">
+  <h1>Give us your feedback on LA Hair!</h1>
+  <table class="ninety">
+>>>>>>> origin/master
   <tbody>
     <tr>
-      <td width="35%">First and Last Name</td>
-      <td width="65%"><input name="First_Last_Name" type="text" required="required" id="First_Last_Name" size="50"></td>
+      <td class="leftfeedback">First and Last Name</td>
+      <td class="rightfeedback"><input name="First_Last_Name" type="text" required="required" id="First_Last_Name" size="50"></td>
     </tr>
     <tr>
-      <td>Email Address</td>
-      <td><input name="Email" type="email" required="required" id="Email" size="50"></td>
+      <td class="leftfeedback">Email Address</td>
+      <td class="rightfeedback"><input name="Email" type="email" required="required" id="Email" size="50"></td>
     </tr>
     <tr>
-      <td>Phone Number</td>
-      <td><input name="Phone_Number" type="text" id="Phone_Number" size="50"></td>
+      <td class="leftfeedback">Phone Number</td>
+      <td class="rightfeedback"><input name="Phone_Number" type="text" id="Phone_Number" size="50"></td>
     </tr>
     <tr>
-      <td>What services are you interested in?</td>
-      <td><p>
+      <td class="leftfeedback">What services are you interested in?</td>
+      <td class="rightfeedback"><p>
         <label>
           <input type="checkbox" name="Services" value="Hair Extensions / Weaves" id="Services_0">
           Hair Extensions / Weaves</label>
@@ -126,8 +132,9 @@ window.onclick = function(event) {
       </p></td>
     </tr>
     <tr>
-      <td>How easy was the website to use?</td>
-      <td><label for="Website_easy">Select:</label>
+      <td class="leftfeedback">How easy was the website to use?</td>
+      <td class="rightfeedback"><label for="Website_easy">Select:
+		  </label>
         <select name="Website_easy" id="Website_easy">
           <option value="Very Easy" selected="selected">Very Easy</option>
           <option value="Easy">Easy</option>
@@ -137,8 +144,8 @@ window.onclick = function(event) {
         </select></td>
     </tr>
     <tr>
-      <td>Did you find the information you were looking for?</td>
-      <td><table width="200">
+      <td class="leftfeedback">Did you find the information you were looking for?</td>
+      <td class="rightfeedback"><table class="yesno">
         <tr>
           <td><label>
             <input type="radio" name="Find_Info" value="Yes" id="Find_Info_0">
@@ -152,12 +159,12 @@ window.onclick = function(event) {
       </table></td>
     </tr>
     <tr>
-      <td>Please let us know any questions or concerns!</td>
-      <td><textarea name="textarea" cols="30" rows="10" id="textarea"></textarea></td>
+      <td class="leftfeedback">Please let us know any questions or concerns!</td>
+      <td class="rightfeedback"><textarea name="textarea" cols="30" rows="10" id="textarea"></textarea></td>
     </tr>
     <tr>
-      <td><input type="submit" name="submit" id="submit" value="Submit"></td>
-      <td><input type="reset" name="reset" id="reset" value="Reset"></td>
+      <td class="leftfeedback"><input type="submit" name="submit" id="submit" value="Submit"></td>
+      <td class="rightfeedback"><input type="reset" name="reset" id="reset" value="Reset"></td>
     </tr>
   </tbody>
 </table>
@@ -171,19 +178,19 @@ window.onclick = function(event) {
 
 <!-- Footer -->
 <footer>
-	<table width="100%" border="0">
+	<table>
   <tbody>
     <tr>
 		<!-- Address -->
-		<td width="33%" align="left">Northside Tower,<br/>Suite 510 6065 Roswell Road NE<br/>Atlanta, GA 30328</td>
+		<td class="left">Northside Tower,<br/>Suite 510 6065 Roswell Road NE<br/>Atlanta, GA 30328</td>
       	<!-- Middle Column -->
-		<td width="34%" align="center"><a href="sitemap.html">Sitemap</a> | <a href="feedback.html">Feedback</a> | <a href="credits.html">Credits</a> <br>
-<a href="https://www.facebook.com/profile.php?id=100015040153538"><img src="Pictures/logo-facebook.png" width="47px" height="47px" alt=""/></a>	
-		<a href="https://twitter.com/LaHairAtl"><img src="Pictures/twitter-logo-final.png" width="47px" height="47px" alt=""/></a>
-		  <img src="Pictures/Free-wifi.png" width="48" height="48" alt=""/><br/> 
+		<td class="center"><a href="sitemap.html">Sitemap</a> | <a href="feedback.html">Feedback</a> | <a href="credits.html">Credits</a> <br>
+<a href="https://www.facebook.com/profile.php?id=100015040153538"><img src="Pictures/logo-facebook.png" width="47" height="47" alt="Facebook"/></a>	
+		<a href="https://twitter.com/LaHairAtl"><img src="Pictures/twitter-logo-final.png" width="47" height="47" alt="Twitter"/></a>
+		  <img src="Pictures/Free-wifi.png" width="48" height="48" alt="Free WiFi"/><br/> 
 		  Copright © 2020 | LA Hair Extensions Atlanta</td>
       	<!-- Phone Number -->
-		<td width="33%" align="right">404-252-5644</td>
+		<td class="right">404-252-5644</td>
     </tr>
   </tbody>
 </table>
