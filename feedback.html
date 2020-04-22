@@ -80,7 +80,11 @@ window.onclick = function(event) {
     </nav>
 	<!-- InstanceEndEditable -->
 <section><!-- InstanceBeginEditable name="Content" -->
+
+<!-- When a user fills out the form, it will send the feedback to formbuddy, and LA hair can use it to make their site better --> 
   <div class="noaside"><form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+	  <fieldset>
+<legend>Feedback Form</legend>
   <input type="hidden" name="username" value="jackiew32">
 	<input type="hidden" name="reqd" value="1,2">
 	<input type="hidden" name="url" value="https://studentweb.kennesaw.edu/~dfajard3/3260/project/Unnamed%20Site%203/thankyou.html">
@@ -89,36 +93,40 @@ window.onclick = function(event) {
   <tbody>
     <tr>
       <td class="leftfeedback">First and Last Name</td>
+		<label for="First_Last_Name">First name: </label>
       <td class="rightfeedback"><input name="First_Last_Name" type="text" required="required" id="First_Last_Name" size="50"></td>
     </tr>
     <tr>
       <td class="leftfeedback">Email Address</td>
+		<label for="Email">Email: </label>
       <td class="rightfeedback"><input name="Email" type="email" required="required" id="Email" size="50"></td>
     </tr>
     <tr>
       <td class="leftfeedback">Phone Number</td>
+		<label for="Phone_Number">Phone Number: </label>
       <td class="rightfeedback"><input name="Phone_Number" type="text" id="Phone_Number" size="50"></td>
     </tr>
     <tr>
       <td class="leftfeedback">What services are you interested in?</td>
       <td class="rightfeedback"><p>
-        <label>
+		  <label for="Services_0">
           <input type="checkbox" name="Services" value="Hair Extensions / Weaves" id="Services_0">
-          Hair Extensions / Weaves</label>
+		  Weaves </label>
         <br>
-        <label>
+        <label for="Services_1">
           <input type="checkbox" name="Services" value="Micro Weave Track" id="Services_1">
-          Micro Weave Track</label>
+      Micro Weave Track </label>
         <br>
-        <label>
+        <label for="Services_2">
           <input type="checkbox" name="Services" value="Hair Growth" id="Services_2">
-          Hair Growth</label>
+          Hair Growth </label>
         <br>
-        <label>
+        <label for="Services_3">
           <input type="checkbox" name="Services" value="Hair Color" id="Services_3">
           Hair Color</label>
+        <label for="checkbox">Checkbox </label>
         <br>
-        <label>
+        <label for="Services_4">
           <input type="checkbox" name="Services" value="Other" id="Services_4">
           Other</label>
         <br>
@@ -140,12 +148,12 @@ window.onclick = function(event) {
       <td class="leftfeedback">Did you find the information you were looking for?</td>
       <td class="rightfeedback"><table class="yesno">
         <tr>
-          <td><label>
+          <td><label for="Find_Info_0">
             <input type="radio" name="Find_Info" value="Yes" id="Find_Info_0">
             Yes</label></td>
         </tr>
         <tr>
-          <td><label>
+          <td><label for="Find_Info_1">
             <input type="radio" name="Find_Info" value="No" id="Find_Info_1">
             No</label></td>
         </tr>
@@ -153,16 +161,19 @@ window.onclick = function(event) {
     </tr>
     <tr>
       <td class="leftfeedback">Please let us know any questions or concerns!</td>
+		<label for="textarea">Text Area</label>
       <td class="rightfeedback"><textarea name="textarea" cols="30" rows="10" id="textarea"></textarea></td>
+			
     </tr>
     <tr>
       <td class="leftfeedback"><input type="submit" name="submit" id="submit" value="Submit"></td>
+		<label for="reset">Reset: </label>
       <td class="rightfeedback"><input type="reset" name="reset" id="reset" value="Reset"></td>
     </tr>
   </tbody>
 </table>
 
-	  
+	  </fieldset>
 	</form>
 	  </div>
   <!-- InstanceEndEditable --></section>
